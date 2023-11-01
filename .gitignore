@@ -1,4 +1,5 @@
 .Rproj.user/**
 data/**
 info/**
+.DS_Store
 _full_compounds.Rproj
