@@ -37,7 +37,7 @@ selected_ratios <- ratios %>%
          runtype = factor(runtype) %>%
            fct_recode("Pre-shutdown" = "CUNY", "Post-shutdown" = "Shutdown"))
 
-# Plot boxplots of peak area ratios, before and after the shutdown
+# Plot distributions of peak area ratios, before and after the shutdown
 ggplot(data = selected_ratios, aes(x = compound, y = ratio, col = runtype)) +
   geom_point(alpha = 0.7, position = position_jitterdodge()) +
   coord_cartesian(ylim = c(0, 0.6)) +

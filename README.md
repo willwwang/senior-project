@@ -22,9 +22,7 @@ This repo contains peak areas by compound, sample log info, R code to clean and 
 
 - benzene_toluene_ratio_analysis.R: Creates benzene_toluene_ratios.png and benzene_isooctane_ratios.png.
 
-- compound_concentration_analysis.R: Creates concentrations.csv, sample_ptr_concs.png, and all _concs.png files.
-
-- full_compounds.pxp: The Igor experiment containing the TERN analysis.
+- compound_concentration_analysis.R: Creates concentrations.csv, sample_ptr_concs.png, and all _concs.png files. Performs inference on concentrations.
 
 - GasStd_analysis.R: Creates GasStd_peakareainfo.csv, GasStd_summary.csv, and gas_standard_areas.png.
 
@@ -32,7 +30,7 @@ This repo contains peak areas by compound, sample log info, R code to clean and 
 
 - sample_peak_area_cleaning.R: Converts the raw TERN output to the clean sample_ratios.csv file.
 
-- sample_ratio_analysis.R: Creates compound_avg_ratios.csv, pre_post_ratios.png, and percent_change_histogram.png.
+- sample_ratio_analysis.R: Creates compound_avg_ratios.csv, pre_post_ratios.png, and percent_change_histogram.png. Performs inference on sample ratios.
 
 ## data
 Data outputs from TERN and from .R files. Also contains external PTR concentration data.
